@@ -1,0 +1,48 @@
+#app{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.actions, #array-container{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1px;
+  }
+  .array-bar {
+    width: 12px;
+    margin: 0 1px;
+    float: inline-start;
+  }
+  .small{
+    display: none;
+    align-items: center;
+  }
+  .slidecontainer{
+    display: inline;
+    margin-left: 20px;
+  }
+  button {
+    background: var(--primary-color);
+    padding: 0.7em 1.7em;
+    font-weight: bold;
+    color: #090909;
+    font-size: 16px;
+    border-radius: 0.5em;
+    border: 1px solid #d4d4d4;
+    transition: all .3s;
+  }
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+  @media only screen and (max-width: 1245px) {
+    .small{
+      display: block;
+      width: 80%;
+      margin: 40% auto;
+    }
+    .array-container {
+      display: none;
+    }
+  }
