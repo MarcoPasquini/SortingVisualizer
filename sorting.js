@@ -4,7 +4,7 @@ const MINIMUM_VALUE = 5;
 
 const MAXIMUM_VALUE = 700;
 
-const COLOR = 'rgba(77,54,208,0.85)';
+const COLOR = '#a1cca5';
 
 let array = [];
 let state = {isReady: true};
